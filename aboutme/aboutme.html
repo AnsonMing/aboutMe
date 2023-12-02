@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon.ico" />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/f5e131fae0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-dark">
+    <header class="header">
+      <!-- navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark d-block"
+        id="navbar"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <div class="waviy">
+              <span style="--i: 1">A</span>
+              <span style="--i: 2">B</span>
+              <span style="--i: 3">O</span>
+              <span style="--i: 4">U</span>
+              <span style="--i: 5">T</span>
+              <span> </span>
+              <span style="--i: 6">M</span>
+              <span style="--i: 7">E</span>
+            </div>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-right list-inline">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#welcome"
+                  >Welcome</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#api">API</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other">Other</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- welcome -->
+      <section id="welcome">
+        <!-- carousel -->
+        <div class="col-12">
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- image -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://picsum.photos/2800/1400?random=1" class="" />
+                <div class="carousel-caption title">
+                  <h1 class="title-word-1 title-word">
+                    <strong>Welcome</strong>
+                  </h1>
+                  <p>
+                    <span class="title-word-2 title-word">to</span>
+                    <span class="title-word-3 title-word">my</span>
+                    <span class="title-word-4 title-word">page</span>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/2800/1400?random=2" class="" />
+                <div class="carousel-caption title">
+                  <h1 class="title-word-1 title-word">
+                    <strong>Welcome</strong>
+                  </h1>
+                  <p>
+                    <span class="title-word-2 title-word">to</span>
+                    <span class="title-word-3 title-word">my</span>
+                    <span class="title-word-4 title-word">page</span>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/2800/1400?random=3" class="" />
+                <div class="carousel-caption title">
+                  <h1 class="title-word-1 title-word">
+                    <strong>Welcome</strong>
+                  </h1>
+                  <p>
+                    <span class="title-word-2 title-word">to</span>
+                    <span class="title-word-3 title-word">my</span>
+                    <span class="title-word-4 title-word">page</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 aos">
+          <div class="align-items-center bg-dark">
+            <div class="">
+              <h3 class="text-light text-center">
+                Hello, I'm <strong class="">Anson</strong>
+              </h3>
+              <p class="aos text-center" id="selfp">
+                <div id="message" class="bg-dark text-light text-center">
+                  <div>Student - Xccelerate Web Dev</div>
+                </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- hobbies -->
+      <section id="hobbies" class="aos">
+        <div class="row">
+          <h2 class="text-light bg-dark text-center mb-5 p-5"># Hobbies</h2>
+          <!-- List -->
+          <div class="col-12 row bg-dark my-5 justify-content-around">
+            <a
+              href="#collapseGames"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapseGames"
+              id="hobbiesGames"
+              class="col-4 col-sm-2 hobbiesbtn"
+              ><img
+                src="/img/games.png"
+                alt="Games"
+                class="img-fluid rounded-circle"
+            /></a>
+
+            <a
+              href="#collapseHomeLab"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapseHomeLab"
+              id="hobbiesHomeLab"
+              class="col-4 col-sm-2 hobbiesbtn"
+              ><img
+                src="/img/homelab.png"
+                alt="HomeLab"
+                class="img-fluid rounded-circle"
+            /></a>
+
+            <a
+              href="#collapseTravel"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="collapseTravel"
+              id="hobbiesTravel"
+              class="col-4 col-sm-2 hobbiesbtn"
+              ><img
+                src="/img/travel.webp"
+                alt="Travel"
+                class="img-fluid rounded-circle"
+            /></a>
+          </div>
+          <!-- collapse -->
+          <div class="offset-2 col-8 bg-dark my-5" id="accordion">
+            <!-- Games -->
+            <div
+              class="collapse p-0"
+              id="collapseGames"
+              data-bs-parent="#accordion"
+            >
+              <div class="card card-body bg-secondary">
+                <h2 class="text-light text-center"><ins>Games</ins></h2>
+                <div class="row justify-content-center">
+                  <div class="offset-lg-3 col-lg-6 col-12 my-2">
+                    <img
+                      src="/img/runOnline.jpg"
+                      alt="runOnline"
+                      class="img-fluid rounded-circle gamesIcon"
+                    />
+                    <span
+                      class="badge bg-dark rounded-pill gamesTag align-bottom"
+                      >2013-2015</span
+                    >
+                  </div>
+                  <div class="offset-lg-3 col-lg-6 col-12 my-2">
+                    <img
+                      src="/img/danceOnline.png"
+                      alt="danceOnline"
+                      class="img-fluid rounded-circle gamesIcon"
+                    />
+                    <span
+                      class="badge bg-dark rounded-pill gamesTag align-bottom"
+                      >2015-2020</span
+                    >
+                  </div>
+                  <div class="offset-lg-3 col-lg-6 col-12 my-2">
+                    <img
+                      src="/img/lolOnline.jpeg"
+                      alt="lolOnline"
+                      class="img-fluid gamesIcon rounded-circle"
+                    />
+                    <span
+                      class="badge bg-dark rounded-pill gamesTag align-bottom"
+                      >2016-Now</span
+                    >
+                  </div>
+                  <div class="offset-lg-3 col-lg-6 col-12 my-2">
+                    <img
+                      src="/img/partyOnline.png"
+                      alt="partyOnline"
+                      class="img-fluid gamesIcon"
+                    />
+                    <span
+                      class="badge bg-dark rounded-pill gamesTag align-bottom"
+                      >2023-Now</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- HomeLab -->
+            <div
+              class="collapse"
+              id="collapseHomeLab"
+              data-bs-parent="#accordion"
+            >
+              <div class="card card-body bg-secondary">
+                <h2 class="text-light text-center"><ins>HomeLab</ins></h2>
+                <p># For Example</p>
+                <img src="/img/homeLabTemp.webp" alt="homeLab" />
+
+                <hr />
+              </div>
+            </div>
+
+            <!-- Travel -->
+            <div
+              class="collapse"
+              id="collapseTravel"
+              data-bs-parent="#accordion"
+            >
+              <div class="card card-body bg-secondary" id="travelImgList">
+                <h2 class="text-light text-center"><ins>Travel</ins></h2>
+                <p># Thailand Nov,2023</p>
+                <hr />
+                <div class="row">
+                  <img
+                    src="/img/Thai1.jpeg"
+                    alt=""
+                    class="col-12 col-lg-6 p-2 rounded"
+                  />
+                  <img
+                    src="/img/Thai2.jpeg"
+                    alt=""
+                    class="col-12 col-lg-6 mp-2 rounded"
+                  />
+                  <img
+                    src="/img/Thai3.jpeg"
+                    alt=""
+                    class="col-12 col-lg-6 p-2 rounded"
+                  />
+                  <img
+                    src="/img/Thai4.jpeg"
+                    alt=""
+                    class="col-12 col-lg-6 p-2 rounded"
+                  />
+                  <img
+                    src="/img/Thai5.jpeg"
+                    alt=""
+                    class="col-12 col-lg-6 p-2 rounded"
+                  />
+                  <img
+                    src="/img/Thai6.jpeg"
+                    alt=""
+                    class="col-12 col-lg-6 p-2 rounded"
+                  />
+                  <img
+                    src="/img/Thai8.jpeg"
+                    alt=""
+                    class="col-12 col-lg-6 p-2 rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- work -->
+      <section id="work" class="aos">
+        <div class="row">
+          <h2 class="text-light bg-dark text-center mb-2 p-5 col-12"># Work</h2>
+          <h4 class="text-light my-5 ms-5 col-12 aos">
+            <ins>Location</ins> : WKCDA
+          </h4>
+          <img
+            src="/img/WKCDA.jpg"
+            alt="wkcda"
+            class="aos img img-fluid col-lg-8 offset-lg-2 col-10 offset-1"
+          />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.748404593689!2d114.15667134653967!3d22.301683369183817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404009073ba01e3%3A0xd0f7e713fb8495cc!2z6KW_5Lmd5paH5YyW5Y2A!5e0!3m2!1szh-TW!2shk!4v1701330594066!5m2!1szh-TW!2shk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="aos col-lg-8 offset-lg-2 col-10 offset-1"
+          ></iframe>
+          <h4 class="aos text-light my-5 ms-5 col-12">
+            <ins>Real</ins>
+          </h4>
+          <img
+            src="/img/serverRoom.jpeg"
+            alt="server room"
+            class="aos img img-fluid col-lg-8 offset-lg-2 col-10 offset-1"
+          />
+
+          <h4 class="aos text-light my-5 ms-5 col-12">
+            <ins>Workspace</ins>
+          </h4>
+          <img
+            src="/img/myColleague.jpeg"
+            alt="myColleague"
+            class="aos img img-fluid col-lg-8 offset-lg-2 col-10 offset-1"
+          />
+        </div>
+      </section>
+
+      <!-- API -->
+      <section id="api" class="aos">
+        <div class="row">
+          <!-- picsum.photos -->
+          <h2 class="aos text-light bg-dark text-center mb-2 p-5 col-12">
+            # API
+          </h2>
+          <h4 class="aos text-light my-5 ms-5 col-12">
+            1. picsum.photos
+            <a href="https://picsum.photos">Link</a>
+            <p class="aos my-5 ms-5">> To gen pictures</p>
+            <div class="aos container">
+              <div class="row">
+                <div class="input-group input-group-sm mb-3 col-6">
+                  <button class="input-group-text btn bg-light" id="inputGroup-sizing-sm" onclick="showimg()"
+                    >HTML</button
+                  >
+                  <input
+                    type="text"
+                    class="form-control disable bg-dark animate-charcter"
+                    placeholder="&lt;img src='https://picsum.photos/400/400'>"
+                    disabled
+                  />
+                </div>
+              </div>
+            </div>
+          </h4>
+          <div class="aos col-12 row m-0 p-0" id="photo">
+            <img
+              src="https://picsum.photos/400/400?random=7"
+              alt=""
+              id="img1"
+              class="aos col-2 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/400/400?random=8"
+              alt=""
+              id="img2"
+              class="aos col-2 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=9"
+              alt=""
+              id="img3"
+              class="aos col-2 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/400/400?random=10"
+              alt=""
+              id="img4"
+              class="aos col-2 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/400/400?random=11"
+              alt=""
+              id="img5"
+              class="aos col-2 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/400/400?random=12"
+              alt=""
+              id="img6"
+              class="aos col-2 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=13"
+              alt=""
+              id="img7"
+              class="aos col-3 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=14"
+              alt=""
+              id="img8"
+              class="aos col-3 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=15"
+              alt=""
+              id="img9"
+              class="aos col-3 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=16"
+              alt=""
+              id="img10"
+              class="aos col-3 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=17"
+              alt=""
+              id="img11"
+              class="aos col-4 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=18"
+              alt=""
+              id="img12"
+              class="aos col-4 img-fluid m-0 p-0"
+            />
+            <img
+              src="https://picsum.photos/600/600?random=19"
+              alt=""
+              id="img13"
+              class="aos col-4 img-fluid m-0 p-0"
+            />
+          </div>
+          <!-- fortestings.com -->
+          <h4 class="aos text-light my-5 ms-5 col-12">
+            2. fortestings.com
+            <a href="https://www.fortestings.com">Link</a>
+            <p class="aos my-5 ms-5">> To get JSON</p>
+            <div class="container">
+              <div class="row">
+                <div class="aos input-group input-group-sm mb-3 col-6">
+                  <btn
+                    class="input-group-text btn text-black bg-light"
+                    id="inputGroup-sizing-sm"
+                    onclick="showcode('getcode')"
+                    >Get</btn
+                  >
+                  <input
+                    type="text"
+                    class="form-control disable bg-dark animate-charcter"
+                    placeholder="https://.../api/{apikey}/get/{Objkey}"
+                    disabled
+                  />
+                </div>
+                <div class="aos input-group input-group-sm mb-3 col-6">
+                  <code id="getcode" style="visibility: hidden">
+                    { "method": "get", "apikey": {APIKEY}, "state": true,
+                    "object": { "key1":"value1" } }
+                  </code>
+                </div>
+                <div class="aos input-group input-group-sm mb-3 col-6">
+                  <btn
+                    class="input-group-text btn bg-light"
+                    id="inputGroup-sizing-sm"
+                    onclick="showcode('addcode')"
+                    >Add</btn
+                  >
+                  <input
+                    type="text"
+                    class="aos form-control disable bg-dark animate-charcter"
+                    placeholder="https://.../api/{apikey}/add/{Objkey}/{Objvalue}"
+                    disabled
+                  />
+                </div>
+                <div class="aos input-group input-group-sm mb-3 col-6">
+                  <code id="addcode" style="visibility: hidden">
+                    { "method": "add", "apikey": {APIKEY}, "state": true,
+                    "object": { "key":"value" } }
+                  </code>
+                </div>
+                <div class="aos input-group input-group-sm mb-3 col-6">
+                  <btn
+                    class="input-group-text btn bg-light"
+                    id="inputGroup-sizing-sm"
+                    onclick="showcode('delcode')"
+                    >Del</btn
+                  >
+                  <input
+                    type="text"
+                    class="aos form-control disable bg-dark animate-charcter"
+                    placeholder="https://.../api/{apikey}/del/{Objkey}"
+                    disabled
+                  />
+                </div>
+                <div class="aos input-group input-group-sm mb-3 col-6">
+                  <code id="delcode" style="visibility: hidden">
+                    { "method": "del", "apikey": {APIKEY}, "state": true,
+                    "name":"{Objkey}" }
+                  </code>
+                </div>
+              </div>
+            </div>
+          </h4>
+        </div>
+      </section>
+
+      <!-- other -->
+      <section id="other" class="aos">
+        <div class="row">
+          <h2 class="text-light bg-dark text-center mb-2 p-5 col-12">
+            # Other
+          </h2>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="aos">
+        <div class="row">
+          <h2 class="aos text-light bg-dark text-center mb-2 p-5 col-12">
+            # Contact
+          </h2>
+          <div class="aos iconGp col-12 text-center">
+            <span
+              id="linkedInIcon"
+              class="mx-3"
+              onclick="showContactWay('Anson')"
+              ><i class="fa-brands fa-linkedin fa-beat fa-2xl"></i
+            ></span>
+            <span
+              id="phoneIcon"
+              class="mx-3"
+              onclick="showContactWay('67794286')"
+              ><i class="fa-solid fa-phone fa-beat fa-2xl"></i
+            ></span>
+            <span
+              id="emailIcon"
+              class="mx-3"
+              onclick="showContactWay('mingtincheung63@gmail.com')"
+              ><i class="fa-regular fa-envelope fa-beat fa-2xl"></i
+            ></span>
+            <span
+              id="facebookIcon"
+              class="mx-3"
+              onclick="showContactWay('Anson')"
+              ><i class="fa-brands fa-facebook fa-beat fa-2xl"></i
+            ></span>
+            <span
+              id="discordIcon"
+              class="mx-3"
+              onclick="showContactWay('Anson')"
+              ><i class="fa-brands fa-discord fa-beat fa-2xl"></i
+            ></span>
+            <span
+              id="githubIcon"
+              class="mx-3"
+              onclick="showContactWay('AnsonMing')"
+              ><i class="fa-brands fa-github fa-beat fa-2xl"></i
+            ></span>
+            <span id="insIcon" class="mx-3" onclick="showContactWay('Anson')"
+              ><i class="fa-brands fa-instagram fa-beat fa-2xl"></i
+            ></span>
+          </div>
+          <div class="text-light text-center">
+            <p id="contactway" class="m-auto"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- thanks -->
+      <section id="thanks" class="aos">
+        <div class="row">
+          <h2
+            class="aos text-light bg-dark text-center mb-2 p-5 col-12 texting"
+          >
+            Thank you!
+          </h2>
+        </div>
+      </section>
+    </main>
+    <!-- Js -->
+    <script src="/static/js/aboutme.js"></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/static/css/aboutme.css" />
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/main.css" />
+  </body>
+</html>
